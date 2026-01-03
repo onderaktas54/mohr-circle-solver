@@ -15,3 +15,5 @@ Bu klasör, Zemin Mekaniği deneyleri için geliştirdiğimiz Mohr Dairesi anali
 
 > **Önemli:** Bu üç dosya (mohrcircle.html, style.css, script.js) her zaman aynı klasörde durmalıdır.
 
+<img width="1915" height="1078" alt="image" src="https://github.com/user-attachments/assets/850705f0-a0a6-4408-86bd-e7b0e4fa10cb" />
+
