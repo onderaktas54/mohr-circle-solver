@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohr Dairesi ve Göçme Zarfı</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <header>
+                <div class="header-top">
+                    <h1 data-i18n="app_title">Mohr Analizi</h1>
+                    <button id="langToggle" class="lang-btn">EN</button>
+                </div>
+                <p data-i18n="app_subtitle">Zemin Mekaniği Laboratuvarı</p>
+            </header>
+
+            <div class="data-inputs">
+                <header class="inputs-header">
+                    <h3 data-i18n="input_title">Deney Verileri (kPa)</h3>
+                    <div class="input-controls">
+                        <button id="addBtn" class="icon-btn" title="Ekle">+</button>
+                        <button id="removeBtn" class="icon-btn" title="Çıkar">-</button>
+                    </div>
+                </header>
+
+                <div id="inputsContainer">
+                    <!-- Dynamic inputs will be placed here -->
+                </div>
+
+                <div class="view-filters">
+                    <label data-i18n="filter_title">Görünüm:</label>
+                    <div id="filterContainer" class="filter-group">
+                        <!-- Dynamic filters will be placed here -->
+                    </div>
+                </div>
+
+                <button id="drawBtn" data-i18n="btn_analyze">Analiz Et ve Çiz</button>
+            </div>
+
+            <div class="results-panel">
+                <h3 data-i18n="results_title">Sonuç parametreleri</h3>
+                <div class="result-item">
+                    <span class="label" data-i18n="res_cohesion">Kohezyon (c)</span>
+                    <span class="value" id="res_c">--</span>
+                    <span class="unit">kPa</span>
+                </div>
+                <div class="result-item">
+                    <span class="label" data-i18n="res_friction">İçsel Sürtünme (ϕ)</span>
+                    <span class="value" id="res_phi">--</span>
+                    <span class="unit" data-i18n="unit_degree">derece</span>
+                </div>
+            </div>
+        </aside>
+
+        <main class="canvas-wrapper">
+            <canvas id="mohrCanvas"></canvas>
+            <div class="legend" id="legendContainer">
+                <!-- Dynamic legend -->
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
