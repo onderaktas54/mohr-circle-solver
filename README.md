@@ -1,19 +1,22 @@
-# Mohr Analizi Uygulaması
+# Mohr Analysis Tool
 
-Bu klasör, Zemin Mekaniği deneyleri için geliştirdiğimiz Mohr Dairesi analiz programını içerir.
+This repository contains a Mohr's Circle analysis tool developed for Soil Mechanics experiments.
 
-## Nasıl Kullanılır?
-1. `mohrcircle.html` dosyasına çift tıklayın.
-2. Tarayıcınızda (Chrome, Edge, Firefox vb.) açılacaktır.
-3. Deney verilerinizi girin, ekle (+) / çıkar (-) butonlarını kullanın.
-4. "Analiz Et ve Çiz" butonuna basarak sonuçları görün.
+## How to Use
 
-## Dosyalar
-- **mohrcircle.html**: Ana program dosyası.
-- **style.css**: Görünüm ve tasarım dosyası.
-- **script.js**: Hesaplama ve çizim kodları.
+1. Double-click the `mohrcircle.html` file.
+2. It will open in your web browser (Chrome, Edge, Firefox, etc.).
+3. Enter your experiment data and use the **add (+)** / **remove (-)** buttons.
+4. Click the **"Analiz Et ve Çiz"** (Analyze and Plot) button to view the results.
 
-> **Önemli:** Bu üç dosya (mohrcircle.html, style.css, script.js) her zaman aynı klasörde durmalıdır.
+## Files
+
+* **mohrcircle.html:** Main application file.
+* **style.css:** Layout and design file.
+* **script.js:** Calculation and plotting scripts.
+
+> **Important:** These three files (`mohrcircle.html`, `style.css`, `script.js`) must always remain in the same directory.
 
 <img width="1915" height="1078" alt="image" src="https://github.com/user-attachments/assets/850705f0-a0a6-4408-86bd-e7b0e4fa10cb" />
+
 
