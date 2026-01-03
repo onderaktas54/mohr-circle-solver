@@ -209,10 +209,12 @@ button#drawBtn:hover {
 .filter-group {
     display: flex;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .filter-btn {
-    flex: 1;
+    /* flex: 1; Removed to prevent ugly stretching on last row */
+    min-width: 32px;
     background: var(--input-bg);
     border: 1px solid var(--border);
     color: var(--text-secondary);
