@@ -13,4 +13,5 @@ Bu klasör, Zemin Mekaniği deneyleri için geliştirdiğimiz Mohr Dairesi anali
 - **style.css**: Görünüm ve tasarım dosyası.
 - **script.js**: Hesaplama ve çizim kodları.
 
-> **Önemli:** Bu üç dosya (index.html, style.css, script.js) her zaman aynı klasörde durmalıdır.
+> **Önemli:** Bu üç dosya (mohrcircle.html, style.css, script.js) her zaman aynı klasörde durmalıdır.
+
